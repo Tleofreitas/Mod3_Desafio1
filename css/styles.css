@@ -11,6 +11,7 @@ a, a:hover { text-decoration: none;
 
 header { background-color: #38AF90;
 color: white;
+box-shadow: 0px 8px 30px black;
 }
 .header_container {
     margin: 0 auto;
