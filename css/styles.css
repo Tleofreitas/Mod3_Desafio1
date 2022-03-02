@@ -11,7 +11,7 @@ a, a:hover { text-decoration: none;
 
 header { background-color: #38AF90;
 color: white;
-box-shadow: 0px 8px 30px black;
+box-shadow: 0px 3px 15px black;
 }
 .header_container {
     margin: 0 auto;
@@ -28,6 +28,46 @@ box-shadow: 0px 8px 30px black;
 
 .header_content, a { margin: 20px;}
 .header_content a:hover {color: blue;}
+
+.latest_news { color: #797979;
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+padding: 40px;}
+
+.news { background-color: #F0F0F0;
+max-width: 1200px;
+margin: 0 auto;
+padding: 40px;
+border-radius: 8px;
+box-shadow: 0px 5px 15px black;
+}
+
+.news h3 { color: #38AF90;}
+.news h4 { color: #797979;
+border-bottom: solid 2px #38AF90}
+.news h6 {color: #38AF90;
+margin: 5px 0 5px 0;}
+.news p { color: #797979;
+padding: 10px 0 10px 0;}
+.news a { margin: 0 auto;
+color: #DD7E92;}
+
+.btn { padding: 10px;
+    width: 244px;
+    height: 67px;
+    color: white;
+    font-size: 18px;
+    background: #DD7E92;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
 
