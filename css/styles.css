@@ -164,3 +164,8 @@ a {
   flex-direction: column;
   justify-content: center;
 }
+
+footer { background-color: #383838;
+    color: white;
+    height: 190px;
+  }
