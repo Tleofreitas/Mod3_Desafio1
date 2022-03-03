@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+:root {
+  --main-color: #38af90;
+  --secondary-color: #dd7e92;
+  --third-color: #797979;
+  --fourth-color: #383838;
+  --color-white: white;
+  --color-yellow: yellow;
+
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,8 +23,8 @@ a:hover {
 }
 
 header {
-  background-color: #38af90;
-  color: white;
+  background-color: var(--main-color);
+  color: var(--color-white);
   box-shadow: 0px 3px 15px black;
 }
 .header_container {
@@ -36,11 +46,11 @@ a {
   margin: 20px;
 }
 .header_content a:hover {
-  color: yellow;
+  color: var(--color-yellow);
 }
 
 .latest_news {
-  color: #797979;
+  color: var(--third-color);
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -58,18 +68,18 @@ a {
 }
 
 .news h3 {
-  color: #38af90;
+  color: var(--main-color);
 }
 .news h4 {
-  color: #797979;
-  border-bottom: solid 2px #38af90;
+  color: var(--third-color);
+  border-bottom: solid 2px var(--main-color);
 }
 .news h6 {
-  color: #38af90;
+  color: var(--main-color);
   margin: 5px 0 5px 0;
 }
 .news p {
-  color: #797979;
+  color: var(--third-color);
   padding: 10px 0 10px 0;
 }
 .news a {
@@ -81,7 +91,7 @@ a {
   padding: 10px;
   width: 244px;
   height: 67px;
-  color: white;
+  color: var(--color-white);
   font-size: 18px;
   background: #dd7e92;
   border-radius: 8px;
@@ -94,7 +104,7 @@ a {
 }
 
 .components {
-  color: #797979;
+  color: var(--third-color);
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -106,7 +116,7 @@ a {
   background-color: #f0f0f0;
 }
 .components h2 {
-  color: #38af90;
+  color: var(--main-color);
 }
 .card {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
@@ -121,13 +131,13 @@ a {
   margin-top: 20px;
 }
 .cor {
-  color: #38af90;
+  color: var(--main-color);
 }
 .card p {
   font-size: 11px;
 }
 .card h2 {
-  color: #38af90;
+  color: var(--main-color);
   margin: 10px;
 }
 
@@ -157,7 +167,7 @@ a {
   height: 67px;
   color: #dd7e92;
   font-size: 18px;
-  background: white;
+  background: var(--color-white);
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
@@ -168,7 +178,7 @@ a {
 }
 
 footer {
-  background-color: #383838;
+  background-color: var(--fourth-color);
   margin: 0 auto;
   height: 190px;
 }
@@ -184,15 +194,15 @@ footer {
 
 
 .footer_container p {
-  color: white;
+  color: var(--color-white);
   display: flex;
   justify-content: center;
 }
 .footer_container a {
-    color: white;
+    color: var(--color-white);
     display: flex;
     justify-content: center;
   }
-footer a:hover { color: yellow;}
+footer a:hover { color: var(--color-yellow);}
 
 
